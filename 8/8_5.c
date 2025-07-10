@@ -4,7 +4,7 @@ int main(void)
     
     int lower = 1;
     int larger = 100;
-    int guess = (lower + larger)/2;
+    int guess;
     char ch;
     
 
@@ -13,22 +13,31 @@ int main(void)
     printf("\nan n if it is wrong.\n");
     
     while (1){
+        guess = (lower + larger)/2;
         printf("Uh...is your number %d?\n", guess);
         ch = getchar();
+        while (getchar() != '\n')
+        {
+            /* code */
+        }
+        
         if (ch == 'y')
         {
             break;
         } else if (ch == 'n')
         {
-            printf("%d\n", getchar());
+            
             printf("Is it larger or smaller? (l/s)\n");
             ch = getchar();
             if (ch == 'l'){
-                lower = guess + 1;
-            } else if (ch == 's'){
                 larger = guess -1;
+            } else if (ch == 's'){
+                lower = guess + 1;
             }
-            getchar(); // to consume the newline character
+            while (getchar() != '\n')
+            {
+                /* code */
+            } 
         }
         
         
