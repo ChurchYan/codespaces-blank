@@ -21,6 +21,14 @@ int main(void)
         } else if (ch == 'n')
         {
             printf("%d\n", getchar());
+            printf("Is it larger or smaller? (l/s)\n");
+            ch = getchar();
+            if (ch == 'l'){
+                lower = guess + 1;
+            } else if (ch == 's'){
+                larger = guess -1;
+            }
+            getchar(); // to consume the newline character
         }
         
         
