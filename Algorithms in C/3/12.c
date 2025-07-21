@@ -12,6 +12,7 @@
 
 void filter_prime_bit(void){
     int i, j;
+    int size = (N + BITS_PER_BYTE - 1) / BITS_PER_BYTE;
     static unsigned char a[(N + BITS_PER_BYTE - 1) / BITS_PER_BYTE];
     memset(a, 0xFF, size);
 
