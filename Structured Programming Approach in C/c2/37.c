@@ -11,7 +11,7 @@ int main(void){
     int quantity;
     float cost;
 
-    scanf_s(" %d %f", &quantity, &cost);
+    scanf(" %d %f", &quantity, &cost);
     printf("\n");
     printf("Quantity is : %d\n", quantity);
     printf("Cost is : %f", cost);

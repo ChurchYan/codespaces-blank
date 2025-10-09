@@ -1,0 +1,1 @@
+// 28. Write a program that extracts and prints the rightmost digit of the integral portion of a float.

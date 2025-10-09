@@ -11,7 +11,7 @@ int main(void){
 
     int i;
     printf("Please enter an Integer:\n");
-    scanf_s(" %d", &i);
+    scanf(" %d", &i);
 
     printf("The number as a charater: %c\n", i);
     printf("The number as a decimal: %d\n", i);

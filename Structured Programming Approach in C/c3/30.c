@@ -1,0 +1,1 @@
+// 30. Write a program that calculates the area and perimeter of a rectangle from a user-supplied (scanf) length and width.

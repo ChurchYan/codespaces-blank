@@ -1,0 +1,1 @@
+// 27. Write a program that reads two integers from the keyboard, multiplies them, and then prints the two numbers and their product.

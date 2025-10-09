@@ -1,0 +1,3 @@
+// 37. A Fibonacci number is a member of a set in which each number is the sum of the previous two numbers. (The Fibonacci series describes a form of a spiral.) The series begins 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+// Write a program that calculates and prints the next three numbers in the Fibonacci series. You are to use only three variables, fib1, fib2, and fib3.

@@ -16,7 +16,7 @@
 int main(void){
     int a, b , c;
     printf("Please enter three number: \n");
-    scanf_s(" %d %d %d", &a, &b, &c);
+    scanf(" %d %d %d", &a, &b, &c);
     printf("\n");
     printf("Your Numbers forward:\n %d\n %d\n %d\n", a, b, c);
     printf("Your Numbers reversed:\n %d\n %d\n %d\n", c, b, a);
