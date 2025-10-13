@@ -10,3 +10,16 @@
 // 2 87
 // 73 6
 // 24 65
+
+#include <stdio.h>
+
+int main(void){
+    //Local Statement
+    int x1, x2, x3, x4, x5, x6, x7, x8 , x9, x10;
+
+    //Statement
+    scanf(" %d %d %d %d %d %d %d %d %d %d", &x1, &x2, &x3, &x4, &x5, &x6, &x7, &x8 , &x9, &x10);
+    printf("%d %d\n%d %d\n%d %d\n%d %d\n%d %d\n", x1, x10, x2, x9, x3, x8, x4, x7 , x5, x6);
+
+    return 0;
+}

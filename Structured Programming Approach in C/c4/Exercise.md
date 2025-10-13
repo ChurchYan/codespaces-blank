@@ -36,7 +36,6 @@ e. The function definition header concludes with a semicolon (;).
 8. Which of the following is not a part of a function header?
 a. Name
 b. Parameter list
-
 c. Return type
 d. Title
 
