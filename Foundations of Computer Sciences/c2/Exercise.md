@@ -104,7 +104,7 @@
     d. (21.11)₈
 
 4. Convert the following decimal numbers to binary without using a calculator, showing your work:
-    Answer：
+    Answer：a: 10011010010,b: 1011000, c:binary can't indicate 0.02, d: binary can't indicate 0.56
     Ai:
 
     a. 1234
@@ -113,7 +113,7 @@
     d. 14.56
 
 5. Convert the following decimal numbers to octal without using a calculator, showing your work:
-    Answer：
+    Answer：a: 2204, b: 143, c: octal cant indicate 0.4, d: octal can't indicate 0.8
     Ai:
 
     a. 1156
@@ -122,7 +122,7 @@
     d. 72.8
 
 6. Convert the following decimal numbers to hexadecimal without using a calculator, showing your work:
-    Answer：
+    Answer：a: 237, b: 583, c: hexadecimal can't indicate 0.13, d: 1
     Ai:
 
     a. 567
@@ -131,7 +131,7 @@
     d. 16
 
 7. Convert the following octal numbers to hexadecimal without using a calculator, showing your work:
-    Answer：
+    Answer：a: 14C, b:109, c: B.E, d: 2AE
     Ai:
 
     a. (514)₈
@@ -140,7 +140,7 @@
     d. (1256)₈
 
 8. Convert the following hexadecimal numbers to octal without using a calculator, showing your work:
-    Answer：
+    Answer：a: 2432, b: 2341, c: 273.60, d: 5274.64
     Ai:
 
     a. (51A)₁₆
@@ -149,7 +149,7 @@
     d. (ABC.D)₁₆
 
 9. Convert the following binary numbers to octal without using a calculator, showing your work:
-    Answer：
+    Answer：a: 15, b: 130, c: 36.2 , d: 77.7
     Ai:
 
     a. (01101)₂
@@ -158,7 +158,7 @@
     d. (111111.111)₂
 
 10. Convert the following binary numbers to hexadecimal without using a calculator, showing your work:
-    Answer：
+    Answer：a: D, b: 58, c: 6c.4, d: 3F.E
     Ai:
 
     a. (01101)₂
@@ -167,7 +167,7 @@
     d. (111111.111)₂
 
 11. Convert the following decimal numbers to binary using the alternative method discussed in Example 2.28, showing your work:
-    Answer：
+    Answer：a: 0111 10101, b: 0110 0010, c: 1111 1111, d: 1101 0110
     Ai:
 
     a. 121
@@ -176,7 +176,7 @@
     d. 214
 
 12. Change the following decimal numbers into binary using the alternative method discussed in Example 2.29, showing your work:
-    Answer：
+    Answer：a: 11.101, b: 1100.0011, c: 100.001101, d: 1100.0000101
     Ai:
 
     a. 3 5/8
@@ -185,7 +185,7 @@
     d. 12 5/128
 
 13. In a positional number system with base b, the largest integer number that can be represented using k digits is bᵏ - 1. Find the largest number in each of the following systems with six digits:
-    Answer：
+    Answer：a: 63, b: 999999, c: FFFFFF, d: 777777
     Ai:
 
     a. Binary
@@ -211,7 +211,7 @@
 
 16. The following table shows how to rewrite a fraction so the denominator is a power of two (1, 4, 8, 16, and so on).
 
-| Original | New | Original | New |
+| Original | New  | Original | New  |
 |----------|------|----------|------|
 | 0.5      | ½    | 0.25     | ¼    |
 | 0.125    | ⅛    | 0.0625   | ¹⁄₁₆ |
