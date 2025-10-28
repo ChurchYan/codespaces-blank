@@ -194,7 +194,7 @@
     d. Octal
 
 14. Without converting, find the minimum number of digits needed in the destination system for each of the following cases:
-    Answer：
+    Answer：a: 17, b:5, c:6
     Ai:
 
     a. Five-digit decimal number converted to binary.
@@ -202,7 +202,7 @@
     c. Seven-digit decimal converted to hexadecimal.
 
 15. Without converting, find the minimum number of digits needed in the destination system for each of the following cases:
-    Answer：
+    Answer：a: 2, b:  3, c: 4
     Ai:
 
     a. 5-bit binary number converted to decimal.
@@ -221,7 +221,7 @@
 However, sometimes we need a combination of entries to find the appropriate fraction. For example, 0.625 is not in the table, but we know that 0.625 is 0.5 + 0.125. This means that 0.625 can be written as ½ + ⅛, or ⅝.
 
 Change the following decimal fractions to a fraction with a power of 2.
-    Answer：
+    Answer：a: 1/8 + 1/16, b: 1/2 + 1/8 + 1/64, c: 1/4 + 1/8 + 1/32, 1/4 + 1/8
     Ai:
 
     a. 0.1875
@@ -230,7 +230,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. 0.375
 
 17. Using the results of the previous problem, change the following decimal numbers to binary numbers.
-    Answer：
+    Answer：111.0011, 1100.101001, 1011.01101, 0.011
     Ai:
 
     a. 7.1875
@@ -239,7 +239,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. 0.375
 
 18. Find the maximum value of an integer in each of the following cases:
-    Answer：
+    Answer：9999999999, 111111111111, 77777777, FFFFFFF
     Ai:
 
     a. b = 10, k = 10
@@ -248,7 +248,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. b = 16, k = 7
 
 19. Find the minimum number of required bits to store the following integers:
-    Answer：
+    Answer：a: 10, b: 17, c: 6, d: 8
     Ai:
 
     a. less than 1000
@@ -257,7 +257,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. less than 256
 
 20. A number less than b^k can be represented using k digits in base b. Show the number of digits needed in each of the following cases.
-    Answer：
+    Answer：a: using 14 digits in base 2, b: using 8 digits in base 10, c: using 13 digits in base 8, d: using 4 digits in base 16
     Ai:
 
     a. Integers less than 2k14 in binary
