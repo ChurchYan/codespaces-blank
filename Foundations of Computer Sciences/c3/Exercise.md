@@ -135,7 +135,7 @@
    c. 2^-2 × 101.110011
    d. 2^-5 × 101101.00000110011000
 18. Convert the following numbers in 32-bit IEEE format.
-    Answer：
+    Answer：如果是负数, 符号位为1, 正数则为0. 指数部分要增加127(取出数据的时候减回来), 小数部分全部转换为 1开头, 然后 "1."省略
     Ai:
 
    a. -2^0 × 1.10001
@@ -143,7 +143,7 @@
    c. +2^-4 × 1.01110011
    d. -2^-5 × 1.01101000
 19. Convert the following numbers in 64-bit IEEE format.
-    Answer：
+    Answer：如果是负数, 符号位为1, 正数则为0. 指数部分要增加1023(取出数据的时候减回来), 小数部分全部转换为 1开头, 然后 "1."省略
     Ai:
 
    a. -20 × 1.10001
@@ -159,7 +159,7 @@
    c. 11.40625
    d. −0.375
 21. The following are sign-and-magnitude binary numbers in a 8-bit allocation. Convert them to decimal.
-    Answer：
+    Answer：a: 119, b: -124, c: 116, d: -78
     Ai:
 
    a. 01110111
@@ -167,7 +167,7 @@
    c. 01110100
    d. 11001110
 22. Convert the following decimal integers to sign-and-magnitude with 8-bit allocation.
-    Answer：
+    Answer：0011 0101, 1110 1011, 1000 0101, 最大127表示不了154
     Ai:
 
    a. 53
@@ -175,7 +175,7 @@
    c. −5
    d. 154
 23. One method of representing signed numbers in a computer is one’s complement representation. In this representation, to represent a positive number, we store the binary number. To represent a negative number, we apply the one’s complement operation on the number. Store the following decimal integers to one’s complement with 8-bit allocation.
-    Answer：
+    Answer：0011 0101, 1001 0100, 1111 1010, 表示不了
     Ai:
 
    a. 53
@@ -183,7 +183,7 @@
    c. −5
    d. 154
 24. The following are one’s complement binary numbers in a 8-bit allocation. Convert them to decimal.
-    Answer：
+    Answer：119, -3, 116, -49
     Ai:
 
    a. 01110111
@@ -191,7 +191,7 @@
    c. 01110100
    d. 11001110
 25. If we apply the one’s complement operation to a number twice, we should get the original number. Apply the one’s complement operation twice to each of the following numbers and see if you can get the original number.
-    Answer：
+    Answer：yes i can
     Ai:
 
    a. 01110111
@@ -199,7 +199,7 @@
    c. 01110100
    d. 11001110
 26. An alternative method to find the two’s complement of a number is to first take the one’s complement of the number and then add 1 to the result. (Adding binary integers is explained in Chapter 4). Try both methods using the following numbers. Compare and contrast the results.
-    Answer：
+    Answer：01110111, 10000100, 0111 0100, 0011 0010
     Ai:
 
    a. 01110111
@@ -207,7 +207,7 @@
    c. 01110100
    d. 11001110
 27. The equivalent of one’s complement in the binary system is nine’s complement in the decimal system (1 = 2 – 1 and 9 = 10 – 1). With n-digit allocation, we can represent nine’s complement numbers in the range of: – [(10n/2) – 1] to + [(10n/2 – 1)]. The nine’s complement of a number with n digit allocation is obtained as follows. If the number is positive, the nine’s complement of the number is itself. If the number is negative, we subtract each digit from 9. Answer the following questions for three-digit allocation:
-    Answer：
+    Answer：a: 范围是– [(10n/2) – 1] to + [(10n/2 – 1)], b: 当最左侧位 是小于等于4时, 为正数, 大于等于5时, 为负数.  c: 有两个zero. d:正零为所有位都为0, 负零是所有位都是9.
     Ai:
 
    a. What is the range of the numbers we can represent using nine’s complement?
@@ -215,7 +215,7 @@
    c. Do we have two zeros in this system?
    d. If the answer to c. is yes, what is the representation for +0 and -0?
 28. Assuming three-digit allocation, find the nine’s complement of the following decimal numbers.
-    Answer：
+    Answer：234, 3位有符号nine’s complement最大表示499, 874, 888
     Ai:
 
    a. +234
@@ -223,7 +223,7 @@
    c. -125
    d. -111
 29. The equivalent of two’s complement in the binary system is ten’s complement in the decimal system (in the binary system, 2 is the base, in the decimal system, 10 is the base). Using n-digit allocation, we can represent numbers in the range of: – (10n/2) to + (10n/2 – 1) in ten’s complement format. The ten’s complement of a number with n-digit allocation is obtained by first finding the nine’s complement of the number and then adding 1 to the result. Answer the following questions for three-digit allocation.
-    Answer：
+    Answer：a: 范围是 – (10n/2)  to + (10n/2 – 1), b: 当最左侧位 是小于等于4时, 为正数, 大于等于5时, 为负数. c: 只有一个zero. 
     Ai:
 
    a. What is the range of the numbers we can represent using ten’s complement?
@@ -231,7 +231,7 @@
    c. Do we have two zeros in this system?
    d. If the answer to c. is yes, what is the representation for +0 and −0?
 30. Assuming three-digit allocation, find the ten’s complement of the following decimal numbers.
-    Answer：
+    Answer：234, 560, 875, 889
     Ai:
 
    a. +234
@@ -239,7 +239,7 @@
    c. -125
    d. -111
 31. The equivalent of one’s complement in the binary system is fifteen’s complement in the hexadecimal system (1 = 2 - 1 and 15 = 16 - 1).
-    Answer：
+    Answer：a: 范围是– [(16n/2) – 1] to + [(16n/2 – 1)]. b: 符号位小于等于7则是正数,符号位大于等于8是负数.正数的complement是本身, 负数的complement是用F 减去正数的每一位. c: 有两个zero. d: 同样道理, 全是零和全是F
     Ai:
 
    a. What range of numbers can we represent with three-digit allocation in fifteen’s complement?
@@ -247,7 +247,7 @@
    c. Do we have two zeros in this system?
    d. If the answer to c. is yes, what is the representation for +0 and -0?
 32. Assuming three-digit allocation, find the fifteen’s complement of the following hexadecimal numbers.
-    Answer：
+    Answer：B14, FE1, E4, E1D
     Ai:
 
    a. +B14
