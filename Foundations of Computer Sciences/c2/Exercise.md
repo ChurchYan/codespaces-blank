@@ -266,7 +266,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. Integers less than 16k4 in hexadecimal
 
 21. A common base used on the internet is b = 256. We need 256 symbols to represent a number in this system. Instead of creating this large number of symbols, the designers of this system have used decimal numbers to represent a symbol: 0 to 255. In other words, the set of symbols is S = {0, 1, 2, 3, ..., 255}. A number in this system is always in the format S₁.S₂.S₃.S₄ with four symbols and three dots that separate the symbols. The system is used to define internet addresses (see Chapter 6). An example of an address in this system is 10.200.14.72, which is equivalent to 10 × 256³ + 200 × 256² + 14 × 256¹ + 72 × 256⁰ = 180883016 in decimal. This number system is called dotted decimal notation. Find the decimal value of each of the following internet addresses:
-    Answer：
+    Answer：a: 300,556,814  b: 238,611,000 c: 1,846,425,678 d:406,326,539
     Ai:
 
     a. 17.234.34.14
@@ -275,7 +275,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. 24.56.13.11
 
 22. Internet addresses described in the previous problem are also represented as patterns of bits. In this case, 32 bits are used to represent an address, eight bits for each symbol in dotted decimal notation. For example, the address 10.200.14.72 can also be represented as 00001010 11001000 00001110 01001000. Show the bit representation of the following internet addresses:
-    Answer：
+    Answer：a: 00010001 11101010 00100010 00001110
     Ai:
 
     a. 17.234.34.14
@@ -284,7 +284,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. 24.56.13.11
 
 23. Write the decimal equivalent of the following Roman numbers:
-    Answer：
+    Answer：a: 15, b: 27, c: 48, d: 1157
     Ai:
 
     a. XV
@@ -293,7 +293,7 @@ Change the following decimal fractions to a fraction with a power of 2.
     d. MCLVII
 
 24. Convert the following decimal numbers to Roman numbers:
-    Answer：
+    Answer：a: XVII b:XXXVIII, c: LXXXVIII, d: CMXCIX
     Ai:
 
     a. 17
