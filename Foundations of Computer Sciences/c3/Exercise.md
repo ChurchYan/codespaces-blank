@@ -263,7 +263,7 @@
    c. Do we have two zeros in this system?
    d. If the answer to c. is yes, what is the representation for +0 and −0?
 34. Assuming three-digit allocation, find the sixteen’s complement of the following hexadecimal numbers.
-    Answer：
+    Answer：B14, FE1, F5, F2E
     Ai:
 
    a. +B14
