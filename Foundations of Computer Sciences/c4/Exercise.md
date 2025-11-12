@@ -146,7 +146,7 @@
   c. –19 + 23
   d. –19 – 23
 
-    Answer: 42, -4, 
+    Answer: 42, -4, 4, -42
     Ai:
 
 13. Using a 16-bit allocation, first convert each of the following numbers to two’s complement, do the operation, and then convert the result to decimal.
@@ -155,7 +155,7 @@
   c. –161 + 1023
   d. –161 – 1023
 
-    Answer: 
+    Answer: 1184, -862, 862,-1184
     Ai:
 
 14. Which of the following operations creates an overflow if the numbers and the result are represented in 8-bit two’s complement representation?
@@ -164,7 +164,7 @@
   c. 11000010 + 11111111
   d. 00000010 + 11111111
 
-    Answer: 
+    Answer: a,c,d
     Ai:
 
 15. Without actually doing the calculation, can we tell which of the following creates an overflow if the numbers and the result are in 8-bit two’s complement representation?
@@ -173,7 +173,7 @@
   c. –32 + 105
   d. –32 – 105
 
-    Answer: 
+    Answer: b,d
     Ai:
 
 16. Show the result of the following operations assuming that the numbers are stored in 16-bit two’s complement representation. Show the result in hexadecimal notation.
@@ -209,15 +209,15 @@
   c. Subtracting one positive integer from a negative integer.
   d. Subtracting two negative integers.
 
-    Answer: 
+    Answer: b,d
     Ai:
 
 20. What is the result of adding an integer to its one’s complement?
-    Answer: 
+    Answer: 1111 1111
     Ai:
 
 21. What is the result of adding an integer to its two’s complement?
-    Answer: 
+    Answer: 0000 0000
     Ai:
 
 
