@@ -79,55 +79,55 @@
 
 
 1. A computer has 64 MB (megabytes) of memory. Each word is 4 bytes. How many bits are needed to address each single word in memory?
-    Answer: 
+    Answer: 64mb = 64 * 1024 kbytes = 64*1024*1024 bytes (byte=8bits), 然后要通过bits表示word的可能性, 需要除以word的长度, 除以四以后,等于2^4 * 2^10 * 2^10, 这样一共是24, 需要24bits
     Ai:
 
 
 2. How many bytes of memory are needed to store a full screen of data if the screen is made of 24 lines with 80 characters in each line? The system uses ASCII code, with each ASCII character stored as a byte.
-    Answer: 
+    Answer: 24*80 = 1920 bytes
     Ai:
 
 
 3. An imaginary computer has 16 data registers (R0 to R15), 1024 words in memory, and 16 different instructions (add, subtract, and so on). What is the minimum size of an add instruction in bits if a typical instruction uses the following format: add M R2.
-    Answer: 
+    Answer: add可以用4bits来表示, 2^10=1024, 所以10bits可以表示1024个word, R2可以用4bits表示 所以最少需要10+4+4=18位
     Ai:
 
 
-4. If the computer in P5-3 uses the same size of word for data and instructions, what is the size of each data register?
-    Answer: 
+4. If the computer in question3 uses the same size of word for data and instructions, what is the size of each data register?
+    Answer: 通常情况下，“一个字的长度 = 核心通用寄存器长度”。register就是18位
     Ai:
 
 5. What is the size of the instruction register in the computer in P5-3?
-    Answer: 
-    Ai:
+    Answer: 4位, 因为Instruction只有16种
+    Ai: 指令寄存器 (Instruction Register) 用于存放整条当前正在执行的指令，而不仅仅是操作码部分。因为指令长度是18位，所以指令寄存器的大小也必须是18位
 
 6. What is the size of the program counter in the computer in P5-3?
-    Answer: 
+    Answer: Program Counter用来放置指令的内存地址, 只需要10位就可以表示1024个内存地址
     Ai:
 
 
 7. What is the size of the data bus in the computer in P5-3?
-    Answer: 
+    Answer: 和word一样18位
     Ai:
 
 
 8. What is the size of the address bus in the computer in P5-3?
-    Answer: 
+    Answer: 10位表示1024个内存地址
     Ai:
 
 
 9. What is the minimum size of the control bus in the computer in P5-3?
-    Answer: 
+    Answer: 一般来说最少4位
     Ai:
 
 
 10. A computer uses isolated I/O addressing. Its memory has 1024 words. If each controller has 16 registers, how many controllers can be accessed by this computer?
-    Answer: 
+    Answer: 1024/16 = 64个controller
     Ai:
 
 
 11. A computer uses memory-mapped I/O addressing. The address bus uses ten lines (10 bits). If memory is made up of 1000 words, how many four-register controllers can be accessed by the computer?
-    Answer: 
+    Answer: 10bits能表示1024个内存地址, 1024-1000=24, 24/4 = 6个controller
     Ai:
 
 
