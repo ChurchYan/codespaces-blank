@@ -64,31 +64,31 @@ d. Logging in to a remote computer.
     Answer: data link layer, network layer, application layer, application layer
     Ai:c. 将长消息从源主机送到目标主机 — 应为传输层（负责分段/重组、端到端可靠性），你写的“应用层”不对。
 2. A small part of a bus LAN with 200 stations is damaged. How many stations are affected by this damage?
-    Answer: 
+    Answer:所有的station都会受到影响
     Ai:
 3. A small part of a star LAN with 200 stations is damaged. How many stations are affected by this damage?
-    Answer: 
+    Answer: 只有损坏的这200个stations受到影响 (在中心交换机没有被损坏的情况下)
     Ai:
 4. A small part of a ring LAN with 200 stations is damaged. How many stations are affected by this damage?
-    Answer: 
+    Answer: 所有的station都会受到影响
     Ai:
 5. If you have a square room with a computer in each corner, which topology needs least cabling? Justify your answer.
 a. A bus LAN.
 b. A ring LAN.
 c. A star LAN with a hub in the center of the room.
-    Answer: 
+    Answer: 我选c, 根据数学计算
     Ai:
 6. If you have a square room with a computer in each corner, which topology is more reliable? Justify your answer.
 a. A bus LAN.
 b. A ring LAN.
 c. A star LAN with a hub in the center of the room.
-    Answer: 
+    Answer: 选c, 只有star在中心交换器不损坏的情况下, 整个网络都不会受到影响,more reliable
     Ai:
 7. An engineer notices that the data received by computers at the two ends of a bus LAN contains many errors. What do you think is the problem? What can be done to solve the problem?
-    Answer: 
+    Answer: 在传递的过程中, 有可能某个节点传输时发生了错误. 因为节点发生的问题, 解决方法就是更换损坏的节点
     Ai:
 8. What is the advantage of having three transport protocols in TCP/IP?
-    Answer: 
+    Answer: 满足不同的需求, 例如udp适合时效性要求高的, tcp适合准确性要求高的, sctp适合两种需求都有一点的
     Ai:
 9. Change the following IP addresses from dotted decimal notation to binary notation:
 a. 112.32.7.28
@@ -109,7 +109,7 @@ e. 11110111 10010011 11100111 01011101
     Answer: 
     Ai:
 11. Explain the client-server model on the internet. In which layer of the TCP/IP protocol suite is the model implemented?
-    Answer: 
+    Answer: 客户端发出请求，服务器提供服务并返回响应. 主要是由Application层实现
     Ai:
 
 12. Separate the local part and the domain name in the following email addresses:
@@ -118,25 +118,21 @@ b. lindsey@jasmine.com
 c. wuteh@hunan.int
 d. honoris@queen.org
 
-    Answer: 
+    Answer: local part是@符号前面的, domain name是@符号后面的
     Ai:
 13. Explain the difference between an email address and an IP address. Is there a one-to-one relationship between the two addresses?
-
-    Answer: 
+    Answer: 首先不是一一对应的, 其次邮件得知的domain name可以转换为ip
     Ai:
 14. Explain the difference between FTP and TELNET. When would you use a FTP and when would you use TELNET?
 
-    Answer: 
+    Answer: ftp是用来传输文件的, telnet是用来连接远程电脑的
     Ai:
 15. A user uses a browser to download a game program. What type of document is downloaded?
-
-    Answer: 
+    Answer: 可执行二进制文件如exe
     Ai:
 16. A user uses a browser to download a technical document. What type of document is downloaded?
-
-    Answer: 
+    Answer: static html/pdf
     Ai:
 17. Write a URL that uses HTTP to access a file with the path /user/general in a computer with the alias name www.hadb.
-
-    Answer: 
-    Ai:
+    Answer: www.hadb.com/user/general
+    Ai: 错,http://www.hadb/user/general
